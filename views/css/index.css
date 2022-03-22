@@ -1,0 +1,83 @@
+/* 初始化 */
+@font-face {
+    font-family: 'mian_font';
+    src: url(../fonts/杨任东竹石体.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 320px;
+    max-width: 750px;
+    width: 10rem;
+    margin: 0 auto;
+    font-family: 'Arial, Helvetica, sans-serif';
+}
+
+
+/* 当最小宽度为750px时，字体为75px */
+@media screen and (min-width:750px) {
+    html {
+        font-size: 75px !important;
+    }
+}
+
+/* 头部区域 */
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+header .left {
+    font-family: 'mian_font';
+    font-size: .7rem;
+}
+
+header .right {
+    color: #919191;
+    font-size: .5rem;
+    top: -0.2rem;
+    position: relative;
+    padding-right: .0267rem;
+}
+
+.icon-yuncai:before {
+    font-size: 1.3rem;
+    color: #BADFFE;
+    position: relative;
+    top: .3rem;
+    right: -0.0667rem;
+}
+
+header .search {
+    position: relative;
+    top: -0.1067rem;
+}
+
+header #search {
+    border: none;
+    font-size: .4rem;
+    flex: 2;
+
+
+    color: #A0A0A0;
+    padding-left: 25px;
+}
+
+.icon-sousuo:before {
+    position: relative;
+    z-index: 1;
+    right: -0.5rem;
+    font-size: 0.45rem;
+}
+
+input:focus {
+    outline: 0;
+}
