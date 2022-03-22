@@ -8,9 +8,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: '宋体';
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 body {
+    background-color: #F0F0F0;
     min-width: 320px;
     max-width: 750px;
     width: 10rem;
@@ -33,6 +40,8 @@ header {
     height: 1.2rem;
     line-height: 1.2rem;
     border-bottom: 1px solid #ccc;
+    background-color: white;
+    border-radius: 1.1333rem;
 }
 
 header .left {
@@ -80,4 +89,24 @@ header #search {
 
 input:focus {
     outline: 0;
+}
+
+/* ul>li部分 */
+.nav_ul {
+    font-size: 0.4rem;
+    padding-left: .7rem;
+    margin: 0 auto;
+    padding-top: 0.3rem;
+    margin-top: 0.3rem;
+    width: 9.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    color: black;
+    font-weight: bolder;
+    border-radius: .16rem;
+    background-color: #FFFFFF;
+}
+
+.nav_ul li {
+    height: .65rem;
 }
