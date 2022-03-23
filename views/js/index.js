@@ -81,7 +81,10 @@ $(function () {
 
 
 
-
+    //为文章绑定点击事件
+    $('article li').on('click',function(){
+        location.assign('article.html')
+    })
 
 
 

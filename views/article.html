@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: '宋体';
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ol {
+            list-style: none;
+        }
+
+        body {
+            min-width: 320px;
+            max-width: 750px;
+            width: 10rem;
+            font-family: 'Arial, Helvetica, sans-serif';
+        }
+
+
+        /* 当最小宽度为750px时，字体为75px */
+        @media screen and (min-width:750px) {
+            html {
+                font-size: 75px !important;
+            }
+        }
+
+        header img {
+            margin-top: .3rem;
+            width: .5rem;
+            display: block;
+        }
+
+        .main p {
+            width: 8.5rem;
+            margin: 0 auto;
+            margin-top: .7rem;
+            font-size: .7rem;
+            font-family: '黑体';
+        }
+
+        .description {
+            width: 8.5rem;
+            margin: 0 auto;
+            margin-top: .4rem;
+            color: #868686;
+            font-size: .3rem;
+            line-height: .4rem;
+        }
+
+        .content {
+            margin-top: .7rem;
+            width: 8.5rem;
+            margin: 0 auto;
+            font-size: .48rem;
+            margin-top: .6rem;
+            letter-spacing: 0.06rem;
+        }
+
+        .content span {
+            line-height: 1rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <img src="images/左箭头.png" alt=""> </header>
+    <div class="main">
+        <p>遭俄“断铀”威胁美欲复兴本土铀，因有毒污染仍有阻碍
+        </p>
+    </div>
+    <div class="description">
+        <p class="author">澎湃新闻记者 王露</p>
+        <p class="data"> 2022-03-21 20:51</p>
+    </div>
+    <div class="content">
+        <span>
+            自俄罗斯对乌克兰发起“特别军事行动”后，因担忧对俄制裁涉及浓缩铀造成供应中断，加之欧洲各国为摆脱对俄能源依赖考虑转向核电，国际铀价已飙升30%以上，达到自2011年日本福岛核事故以来的最高水平。<br /><br />
+            这已是全球铀市场2022年所受到的第二次冲击。此前，因全球最大铀生产国哈萨克斯坦1月政局动荡，1月5日国际铀价曾上涨8%。同为产铀大国的俄罗斯如今受到多方制裁，再度引发全球对于铀供应短缺的强烈担忧。<br /><br />
+            截至目前，铀尚未出现在美对俄制裁清单之上。英国《每日快报》3月21日报道称，拜登正面临美国核工业利益集团的激烈游说，该团体称，尽管俄乌发生冲突，美国也要继续从俄罗斯购买铀。<br /><br />
+            然而，俄罗斯此次似乎可能“先发制人”。据“今日俄罗斯”3月21日报道，诺瓦克表示，俄方正考虑禁止向美国出口铀，以回应美对俄实施的能源禁运。
+            斯普劳特资产管理公司（Sprott Asset Management）首席执行官约翰•钱帕利亚（John
+            Ciampaglia）3月17日对MarketWatch新闻网表示，美国公用事业公司16%的浓缩铀供应来自俄罗斯，而欧洲20%的浓缩铀供应来自俄罗斯。钱帕利亚警告称，无论是西方决定制裁，还是公用事业公司决定不再进口俄浓缩铀，又或是俄主动禁止浓缩铀出口，都将进一步加剧市场上已存在的结构性供应不足。
+        </span>
+    </div>
+
+    <script src="js/flexible.js"></script>
+    <script src="js/jquery.js"></script>
+    <script>
+        $(function () {
+            $('header img').on('click', () => {
+                history.back()
+
+            })
+        })
+    </script>
+</body>
+
+</html>
