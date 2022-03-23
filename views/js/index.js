@@ -77,5 +77,32 @@ $(function () {
     function changeBar(current){
         $('.bar li').eq(current).addClass('current').siblings().removeClass('current')
     }
+
+
+
+
+
+
+
+
+
+
+    //页脚代码
+        $('footer ul li').eq(0).on('click',function(){
+           $(this).children('img').prop('src','images/首页_填充.png') 
+           $(this).children('span').css('color','#1296DB')
+
+           $(this).parent().children('li').eq(1).children('img').prop('src','images/应用中心.png') 
+           $(this).parent().children('li').eq(1).children('span').css('color','black')
+        })
+        $('footer ul li').eq(0).click()
+
+        $('footer ul li').eq(1).on('click',function(){
+            $(this).children('img').prop('src','images/分类.png') 
+            $(this).children('span').css('color','#1296DB')
+ 
+            $(this).parent().children('li').eq(0).children('img').prop('src','images/首页.png') 
+            $(this).parent().children('li').eq(0).children('span').css('color','black')
+         })
     //结尾
 })
