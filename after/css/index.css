@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'mian_font';
+    src: url(../fonts/杨任东竹石体.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+header {
+    color: #009688;
+    height: 8%;
+    background: #23262E;
+    font-family: 'mian_font';
+    line-height: 65px;
+    font-size: 35px;
+    padding-left: 30px;
+}
+
+header p {
+    display: inline-block;
+}
+
+header p:nth-child(2) {
+    color: white;
+    padding-left: 500px;
+}
+
+main {
+    display: flex;
+    height: 92%;
+}
+
+main .left {
+    color: white;
+    flex: 1;
+    background: #393D49;
+}
+
+
+.left li {
+    height: 55px;
+    padding-left: 35px;
+    line-height: 55px;
+    border-bottom: 1px solid #cccccc;
+    box-shadow: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.left li:hover {
+    background-color: #009688;
+}
+
+.left img {
+    width: 20px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+main .right {
+    flex: 5;
+}
+
+.right iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
