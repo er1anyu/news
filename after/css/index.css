@@ -21,6 +21,7 @@ header {
     line-height: 65px;
     font-size: 35px;
     padding-left: 30px;
+    min-height: 58px;
 }
 
 header p {
@@ -39,8 +40,9 @@ main {
 
 main .left {
     color: white;
-    flex: 1;
+    flex: 0.86;
     background: #393D49;
+    min-width: 215.91px;
 }
 
 
@@ -53,8 +55,15 @@ main .left {
     cursor: pointer;
 }
 
-.left li:hover {
+.left a:hover {
+    display: block;
     background-color: #009688;
+}
+
+.current {
+    display: block;
+    background-color: #009688;
+
 }
 
 .left img {

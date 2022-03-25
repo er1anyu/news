@@ -11,12 +11,12 @@
 
 <body>
     <header>
-        <p class="headline">磅礴 </p>
-        <p>后台管理系统</p>
+        <p class="headline" style="user-select: none;">磅礴 </p>
+        <p style="user-select: none;">后台管理系统</p>
     </header>
     <main>
         <ul class="left">
-            <a href="publish.html" target='iframe'>
+            <a href="publish.html" target='iframe' class="current">
                 <li><img src="images/发文章.png"> 发布文章</li>
             </a>
             <a href="list.html" target='iframe'>
@@ -24,7 +24,7 @@
             </a>
         </ul>
         <div class="right">
-            <iframe src="publish.html" name='iframe'></iframe>
+            <iframe src="list.html" name='iframe'></iframe>
         </div>
     </main>
     <script src="js/jquery.js"></script>
