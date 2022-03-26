@@ -42,14 +42,15 @@ main .left {
     color: white;
     flex: 0.86;
     background: #393D49;
-    min-width: 215.91px;
+    min-width: 180.91px;
+    font-size: 13px;
 }
 
 
 .left li {
-    height: 55px;
+    height: 50px;
     padding-left: 35px;
-    line-height: 55px;
+    line-height: 50px;
     border-bottom: 1px solid #cccccc;
     box-shadow: 1px solid #ccc;
     cursor: pointer;
@@ -85,4 +86,5 @@ main .right {
 a {
     text-decoration: none;
     color: white;
+
 }

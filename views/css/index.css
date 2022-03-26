@@ -196,7 +196,7 @@ article li {
 
 article li:last-child {
 
-    margin-bottom: 0.1rem;
+    margin-bottom: 2rem;
 }
 
 article li img {
@@ -220,7 +220,7 @@ article .author {
     font-size: .2rem;
     position: absolute;
     top: 1.4rem;
-    right: 3.24rem;
+    left: 3.5rem;
     color: #B1B1B1;
     font-weight: bolder;
 }

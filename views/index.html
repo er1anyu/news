@@ -62,7 +62,7 @@
 
     <article>
         <ul>
-            <li>
+            <!-- <li>
                 <img src="images/a1.png" alt="">
                 </img>
                 <p class="headline">
@@ -117,14 +117,14 @@
                 <p class="recommend">推荐</p>
             </li>
             <li>
-                <img src="images/a1.png" alt="">
+                <img src="../node/uploads/" alt="">
                 </img>
                 <p class="headline">
                     遭俄“断铀”威胁美欲复兴本土铀，因有毒污染仍有阻碍
                 </p>
                 <p class="author">澎湃新闻 一小时前</p>
                 <p class="recommend">推荐</p>
-            </li>
+            </li> -->
         </ul>
     </article>
 
@@ -140,6 +140,18 @@
             </li>
         </ul>
     </footer>
+    <script src="js/template-web.js"></script>
+    <script type="text/html" id="article">
+        <li id="{{Id}}">
+            <img src="../node/{{cover}}" alt="">
+            </img>
+            <p class="headline">
+                {{title}}
+            </p>
+            <p class="author">{{organ}} {{date | dateFormat}}</p>
+            <p class="recommend">推荐</p>
+        </li>
+    </script>
     <script src="js/flexible.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/index.js"></script>

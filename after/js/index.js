@@ -3,7 +3,10 @@ $(function(){
       $(this).addClass('current').siblings().removeClass('current')
   })
 
-$('.file').on('click',function(){
-  $('#file').click()
-})
+  $('.file').on('click',function(){
+    $('#file').click()
+  })
+  
+
+  //结尾
 })

@@ -34,8 +34,9 @@ table th {
 
     font-weight: 500;
     text-align: left;
-    height: 50px;
+    height: 40px;
     padding-left: 20px;
+    font-size: 13px;
 }
 
 table {
@@ -46,8 +47,9 @@ table td {
     background: #FFFFFF;
     border: 1px solid black;
     text-align: left;
-    height: 50px;
+    height: 40px;
     padding-left: 20px;
+    font-size: 13px;
 }
 
 table button {
